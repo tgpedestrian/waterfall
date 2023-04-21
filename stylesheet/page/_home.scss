@@ -1,0 +1,203 @@
+.header-city{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px 0px 30px;
+    height: 100px;
+
+    .header-city-logo{
+        width: 100px;
+        height: 100px;
+        // background-color: antiquewhite;
+        align-items: center;
+        text-align: center;
+        line-height: 60px;
+        font-size: 60px;
+        color: rgb(40, 154, 241);
+        position: relative;
+        bottom: 10px;
+    }
+    .header-city-search{
+
+        .search-square{
+            padding-left: 20px ;
+            width: 900px;
+            height: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-color: rgb(61, 104, 104);
+            border-radius: 20px 20px 20px 20px ;
+            box-shadow: 0px 0px 2px 2px #625B57;
+        }
+
+
+        i{
+            position: relative;
+            left: 32px;
+        }
+
+    }
+
+    .header-city-userstickers-city{
+        display: flex;
+
+        .header-city-userstickers{
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+            background-color: #999EA2;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.contain-city{
+    display: flex;
+
+
+    .Society{
+        font-size: 30px;
+        font-weight:bold;
+        text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+        color: #74abc8;
+        letter-spacing: 3px;
+        
+    }
+
+    .contain-left{
+        margin-left: 40px;
+        margin-right: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+
+        .Society-city1{
+            display: flex;
+            height: 50px;
+            
+            .motocycle{
+                background-color:#74abc8;
+                color: white;
+                border-radius: 20px;
+                padding: 3px;
+                margin-right: 10px;
+                height: 30px;
+                
+            }
+            .Computer{
+                background-color:#74abc8;
+                color: white;
+                border-radius: 20px;
+                padding: 3px;
+                height: 30px;
+            }
+        }
+
+        .Society-city2{
+            display: flex;
+            // margin-top: 10px;
+
+            .c3c{
+                background-color:#74abc8;
+                color: white;
+                border-radius: 20px;
+                padding: 3px;
+                margin-right: 10px;
+                height: 30px;
+                
+            }
+
+            .lilustration{
+
+                background-color:#74abc8;
+                color: white;
+                border-radius: 20px;
+                padding: 3px;
+                height: 30px;
+            }
+        }
+
+    }
+
+    .contain-right{
+    
+        
+        .contain-right-cityWorld{
+            display: flex;
+            
+           
+
+            .contain-right-city{
+                margin-right: 20px;
+            }
+        }
+
+        .board{
+
+            font-size: 30px;
+            font-weight:bold;
+            text-shadow: -1px 0 black, 0 1px black,
+            1px 0 black, 0 -1px black};
+            color: #74abc8;
+            letter-spacing: 3px;
+
+    }
+
+        .first1-1{
+            height: 300px;
+            background-color: #EDF1FE;
+            width: 230px;
+            margin-bottom: 30px;
+            filter: drop-shadow(7px 7px 3px rgb(168, 168, 168));
+            border-radius: 5%;
+
+            .first1-1-div{
+                height: 200px;
+                
+                .first1-1-div-img{
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 5%;
+                }
+            }
+        }
+        .first1-2{
+            height: 300px;
+            background-color: #EDF1FE;
+            width: 230px;
+            margin-bottom: 30px;
+            filter: drop-shadow(7px 7px 3px rgb(168, 168, 168));
+            border-radius: 5%;
+        }
+
+        .first1-2{
+            height: 300px;
+            background-color: #EDF1FE;
+            width: 230px;
+            margin-bottom: 30px;
+            filter: drop-shadow(7px 7px 3px rgb(168, 168, 168));
+            border-radius: 5%;
+
+            .first1-2-div{
+                height: 200px;
+                
+                .first1-2-div-img{
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 5%;
+                }
+            }
+        }
+        .first1-2{
+            height: 300px;
+            background-color: #EDF1FE;
+            width: 230px;
+            margin-bottom: 30px;
+            filter: drop-shadow(7px 7px 3px rgb(168, 168, 168));
+            border-radius: 5%;
+        }
+
+
+}
