@@ -161,6 +161,8 @@
                     height: 200px;
                     border-radius: 5%;
                 }
+
+                
             }
         }
         .first1-2{
@@ -197,6 +199,22 @@
             margin-bottom: 30px;
             filter: drop-shadow(7px 7px 3px rgb(168, 168, 168));
             border-radius: 5%;
+        }
+
+        .first1-1-div-msgCity-flex{
+            display: flex;
+
+            .first1-1-div-msgCity-flex-user{
+                width: 20px;
+                height: 20px;
+                background-color: #7ec874;
+            }
+
+            .first1-1-div-msgCity-flex-userMsg{
+                width: 70px;
+                height: 20px;
+                background-color: #77c874;
+            }
         }
 
 
